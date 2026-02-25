@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC STREAM</title>
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background-color:#000000f3;
+}
+.container{
+    max-width:600px;
+    margin:60px auto;
+    padding:40px;
+    background-color:#ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba( 0, 0, 0, 0.06);
+}
+h1{
+    text-align:center;
+    color:#3be204;
+    font-weight:500;
+}
+h4, form{
+    text-align:center;
+    color:#e4e7e3;
+    font-weight:500;
+}
+input{
+    padding:12px;
+    margin-bottom:15px;
+    border-radius:12px;
+    border:1px solid #e4d7df;
+    background-color:#fcfaf8;
+    font-size:15px;
+}
+label{
+    display:block;
+    margin-bottom:15px;
+    font-size:14px;
+}
+button{
+    margin-bottom:15px;
+    width:40%;
+    padding:14px;
+    border-radius:14px;
+    background-color:#094401;
+    color:white;
+    font-size:15px;
+    font-weight:500;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+button:hover{
+    background-color:#031a68;
+}
+</style>
+</head>
+<body>
+   <h1>MUSIC STREAM</h1>
+    <form>
+        <div>
+            <label>nome:</label>
+            <input type="text" placeholder="inserire il nome" >
+         </div>
+
+         <div>
+            <label>cognome:</label>
+            <input type="text" placeholder="inserire il cognome">
+         </div>
+
+         <div>
+            <label>Email:</label>
+            <input type="email" placeholder="inserire l'email">
+         </div>   
+    
+         <div>
+             <label>Password:</label>
+            <input type="password" placeholder="inserire la password">
+         </div>   
+         
+         <div>
+             <label>Data di nascita:</label>
+            <input type="date">
+         </div>
+
+          <div>
+             <label>Numero di telefono:</label>
+            <input type="number" placeholder="inserire il Numero" >
+         </div>
+         <div>
+           <h4>INSERIRE I GUSTI MUSICALI:</h4>
+             <label><input type="checkbox" /> Pop</label>
+             <label><input type="checkbox" /> Tecno</label>
+             <label><input type="checkbox" /> Rap</label>
+             <label><input type="checkbox" /> House</label>
+             <label><input type="checkbox" /> Indie</label>
+             <label><input type="checkbox" /> Hip Hop</label>
+         </div>
+
+         <div>
+             <label>
+               <input type="radio" />
+                Accetto i termini e le condizioni
+            </label>
+         </div>
+            <button type="submit" onclick="alert('registrazione effetuata con successo!')" >EFFETTUA REGISTRAZIONE</button>
+        </form>
+    
+</body>
+</html>
