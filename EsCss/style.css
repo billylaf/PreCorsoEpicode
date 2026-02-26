@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.main-section{
+    padding: 20px;
+    padding-top: 0;
+}
+
+.image-container {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.author {
+    color: #f04b05;  
+    text-decoration: none;
+}
+
+.author:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h6{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #da0c0c;
+}
+
+a.table {
+    display: block;
+    padding: 10px 0 10px 22px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+a.table:hover {
+    background-color: #eee;
+    padding-left: 30px;
+}
+ footer {
+      background-color: black;
+      color: white;
+      padding: 16px;
+      text-align: center;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
